@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    p{
+      font-size: 14px;
+      font-family: "Barlow Semi Condensed", sans-serif;
+    }
+    @media (max-width: 375px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .grid-rows-2 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+  }
+}
+  </style>
+</head>
+<body class="grid place-items-center bg-gray-100">
+  <div class="grid lg:grid-cols-4 lg:grid-rows-2 m-5 gap-5  w-3/4 sm:grid-cols-1 sm:grid-rows-auto">
+
+    <div class="bg-purple-800 rounded-lg lg:col-span-2 p-10 grid gap-2 sm:col-span-0">
+      <div class="flex items-center gap-4">
+        <img src="./images/image-daniel.jpg" class="rounded-full border-2 border-purple-400 w-10">
+        <div class="text-white">
+          <p class="text-lg">Daniel Clifford</p>
+          <p>Verified Graduate</p>
+        </div>
+      </div>
+      <p class="text-white text-xl font-semibold">I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+      in the company I joined. I honestly feel I got every penny’s worth.</p>
+
+      <p class="text-gray-300">“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+      transition and have heard some people who had an amazing experience here. I signed up 
+      for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+      The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+      the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”</p>
+    </div>
+
+    <div class="bg-gray-500 rounded-lg p-10 grid gap-2">
+      <div class="flex items-center gap-4">
+        <img src="./images/image-jonathan.jpg" class="rounded-full border-2 border-gray-400 w-10">
+        <div class="text-white">
+          <p class="text-lg">Jonathan Walters</p>
+          <p>Verified Graduate</p>
+        </div>
+      </div>
+      <p class="text-white text-xl font-semibold">The team was very supportive and kept me motivated</p>
+
+      <p class="text-gray-300">“ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
+      for a big company. This was one of the best investments I’ve made in myself. ”</p>
+    </div>
+
+    <div class="bg-white rounded-lg p-10 grid gap-2">
+      <div class="flex items-center gap-4">
+        <img src="./images/image-jeanette.jpg" class="rounded-full  w-10">
+        <div class="text-gray-500">
+          <p class="text-lg">Jeanette Harmon</p>
+          <p>Verified Graduate</p>
+        </div>
+      </div>
+      <p class="text-gray-700 text-xl font-semibold">An overall wonderful and rewarding experience</p>
+      <p class="text-gray-500">“ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
+      while doing something I love. ”</p>
+    
+    </div>
+
+    <div class="bg-gray-900 rounded-lg p-10 lg:col-span-2 grid gap-2 sm:col-span-0">
+      <div class="flex items-center gap-4">
+        <img src="./images/image-patrick.jpg" class="rounded-full border-2 border-gray-400 w-10">
+      <div class="text-white">
+        <p class="text-lg">Patrick Abrams</p>
+        <p>Verified Graduate</p>
+      </div>
+    </div>
+      <p class="text-white text-xl font-semibold">Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
+      learning from their experiences was easy.
+
+      <p class="text-gray-300">“ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
+      gave me the confidence necessary to be able to go out in the world and present myself as a capable 
+      junior developer. The standard is above the rest. You will get the personal attention you need from 
+      an incredible community of smart and amazing people. ”
+    </div>
+
+    <div class="bg-white rounded-lg lg:row-start-1 lg:row-end-3 lg:col-start-4 px-8 pt-4 grid gap-1 sm:row-start-auto sm:row-end-auto">
+      <div class="flex items-center gap-4">
+        <img src="./images/image-kira.jpg"  class="rounded-full border-2 border-gray-400 w-10">
+        <div class="text-gray-500">
+          <p class="text-lg">Kira Whittle</p>
+          <p>Verified Graduate</p>
+        </div>
+      </div>
+
+      <p class="tex-gray-700 text-xl font-semibold space-y-0 mb-0">Such a life-changing experience. Highly recommended!</p>
+      <p  class="text-gray-500">“ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
+      professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
+      student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
+      did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team 
+      project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial 
+      could ever have. In fact, I’ve often referred to it during interviews as an example of my developent 
+      experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 
+      100% recommend! ”</p>
+    </div>
+  </div>
+</body>
+</html>
